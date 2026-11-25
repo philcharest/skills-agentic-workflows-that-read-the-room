@@ -18,6 +18,7 @@ network:
   allowed:
     - github.com
     - github.blog
+    - awesome-copilot.github.com
 engine:
   id: copilot
   copilot-sdk: true
@@ -27,14 +28,15 @@ engine:
 
 Read `notes/mona-notes.md` before making changes.
 
-Use these sources:
+Use these sources and web-fetch each online source:
 - `notes/mona-notes.md`
 - GitHub Blog: https://github.blog/latest/
 - GitHub Changelog: https://github.blog/changelog/
+- Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
 
 Update `site/content/github-info.md` with concise,
 practical updates for readers and include source context when content comes
-from the GitHub Blog or GitHub Changelog.
+from an online source.
 
 Open a pull request for Mona to review.
 Use a pull request title that mentions Mona or GitHub Info.
